@@ -20,11 +20,11 @@ nav {
 }
 
 .logo {
-  margin-left: 2rem;
+  margin-left: 1rem auto;
 }
 
 .nav-links {
-  margin-right: 2rem;
+  margin-right: 2rem auto;
 }
 
 .nav-links a {
@@ -41,7 +41,6 @@ nav {
   color: #fff;
   background: #0f0f10;
   padding: 0rem calc((100vw - 1400px) / 2);
-  overflow-x: hidden;
   position: relative;
 }
 
@@ -115,3 +114,12 @@ button {
       grid-template-columns: 1fr;
     }
   }
+  #wrapper {  
+    background-color: #CCC;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999; 
+    height: 800px;
+}
