@@ -41,6 +41,7 @@ nav {
   color: #fff;
   background: #0f0f10;
   padding: 0rem calc((100vw - 1400px) / 2);
+  overflow: hidden;
   position: relative;
 }
 
